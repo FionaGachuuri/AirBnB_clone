@@ -1,0 +1,57 @@
+/* filters side */
+.filters {
+    background-color: #ffffff;
+    height: 70px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+/* filters - locations and amenities */
+.filters .locations,
+.filters .amenities {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+} 
+/* removing right border */
+
+.filters .amenities {
+    border-right: none;
+}
+
+/* titles inside locations and amenities */
+.filters h3 {
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.filters h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* search burron !! */
+.filters button {
+    background-color: #ff5a5f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    height: 48px;
+    width: 20%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    opacity: 0.9;
+}
